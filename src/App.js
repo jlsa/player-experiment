@@ -8,10 +8,10 @@ import Alert from 'react-bootstrap/Alert';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faUserClock } from '@fortawesome/free-solid-svg-icons'
-import { faSpotify } from '@fortawesome/free-brands-svg-icons'
+import { faCoffee, faUserClock } from '@fortawesome/free-solid-svg-icons';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 
-import Spotify from './Spotify';
+import Spotify from './Components/Spotify/Spotify';
 
 function AlertDismissibleExample() {
   const [show, setShow] = useState(false);

@@ -31,7 +31,7 @@ const Spotify = () => {
         <a className="btn-spotify" href="/auth/get-user-playlists">Get User's Playlists</a>
       </div>
         { (token === '') ? <Login/> : <WebPlayback token={token} /> }
-        <SpotifyPlaylists />
+        {token && <SpotifyPlaylists />}
     </Container>
   );
 }
