@@ -1,0 +1,792 @@
+{
+    "body": {
+        "href": "https://api.spotify.com/v1/users/1170108177/playlists?offset=0&limit=20",
+        "items": [
+            {
+                "collaborative": false,
+                "description": "&lt;3 youuu",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/7tuQKOrCpnkN3I53Yd6Xwb"
+                },
+                "href": "https://api.spotify.com/v1/playlists/7tuQKOrCpnkN3I53Yd6Xwb",
+                "id": "7tuQKOrCpnkN3I53Yd6Xwb",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b2731670d180ea2f3638b3ba500cab67616d0000b2733184c671068d02838d47b277ab67616d0000b273b3bf69edf9add28fa892243fab67616d0000b273e1ac646ed6f25125e2a77229",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b2731670d180ea2f3638b3ba500cab67616d0000b2733184c671068d02838d47b277ab67616d0000b273b3bf69edf9add28fa892243fab67616d0000b273e1ac646ed6f25125e2a77229",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b2731670d180ea2f3638b3ba500cab67616d0000b2733184c671068d02838d47b277ab67616d0000b273b3bf69edf9add28fa892243fab67616d0000b273e1ac646ed6f25125e2a77229",
+                        "width": 60
+                    }
+                ],
+                "name": "Hoi Inge!",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MjMsNTNlZTlhNTZmZDE0OGUyMTJlMzVlNjZjYTVhNDMyZDBmNTg1YzM4Yg==",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/7tuQKOrCpnkN3I53Yd6Xwb/tracks",
+                    "total": 18
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:7tuQKOrCpnkN3I53Yd6Xwb"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/4y7B4FprTWEvCbDVHVoA4F"
+                },
+                "href": "https://api.spotify.com/v1/playlists/4y7B4FprTWEvCbDVHVoA4F",
+                "id": "4y7B4FprTWEvCbDVHVoA4F",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b27322127025d9ae9e27c33d3d2bab67616d0000b273363328c5bd8e16293851284dab67616d0000b273734b1164a9e0faa980ce1b92ab67616d0000b273ee0285c63a334af9b91fa12b",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b27322127025d9ae9e27c33d3d2bab67616d0000b273363328c5bd8e16293851284dab67616d0000b273734b1164a9e0faa980ce1b92ab67616d0000b273ee0285c63a334af9b91fa12b",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b27322127025d9ae9e27c33d3d2bab67616d0000b273363328c5bd8e16293851284dab67616d0000b273734b1164a9e0faa980ce1b92ab67616d0000b273ee0285c63a334af9b91fa12b",
+                        "width": 60
+                    }
+                ],
+                "name": "2022",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MzIsMmJjOTQ2OTgyZjliMmI1ZDQ3MGJkMGI0NmVhZmFhODkyZTBmNjM5NQ==",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/4y7B4FprTWEvCbDVHVoA4F/tracks",
+                    "total": 30
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:4y7B4FprTWEvCbDVHVoA4F"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/4UBTrqu2OsmIJCFt38l8So"
+                },
+                "href": "https://api.spotify.com/v1/playlists/4UBTrqu2OsmIJCFt38l8So",
+                "id": "4UBTrqu2OsmIJCFt38l8So",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273365bef355de7ce80905470ce",
+                        "width": 640
+                    }
+                ],
+                "name": "Acoustic Adventures - Volume One",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Miw1MWU2OWJmMzY2YmVmOWFiZGEyNGQzMTdmNWY2M2UxZjk3ZDQxMGUx",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/4UBTrqu2OsmIJCFt38l8So/tracks",
+                    "total": 12
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:4UBTrqu2OsmIJCFt38l8So"
+            },
+            {
+                "collaborative": false,
+                "description": "Ieder jaar hoor je de <a href=\"https://www.nporadio2.nl/nieuws/23478/bekijk-de-soul-jazz-lijst\">Soul &amp; Jazz Lijst</a> op NPO Radio 2! Van Marvin Gaye tot Bob Marley, deze lijst bevat de beste soul, jazz, disco, reggae en funk.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/5edbQ2ZBkiH6QzCdYPCgT9"
+                },
+                "href": "https://api.spotify.com/v1/playlists/5edbQ2ZBkiH6QzCdYPCgT9",
+                "id": "5edbQ2ZBkiH6QzCdYPCgT9",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706c0000bebb34ce4510e642a0fbe8171321",
+                        "width": null
+                    }
+                ],
+                "name": "Soul & Jazz Lijst | NPO Radio 2",
+                "owner": {
+                    "display_name": "NPO Radio 2",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/radio2nl"
+                    },
+                    "href": "https://api.spotify.com/v1/users/radio2nl",
+                    "id": "radio2nl",
+                    "type": "user",
+                    "uri": "spotify:user:radio2nl"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "NjYyLGJiOWQ5Zjg1ZmU2MTAyN2E3ZTc1MjUxM2FkMGUxNTY3ZDI0OGRhYTY=",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/5edbQ2ZBkiH6QzCdYPCgT9/tracks",
+                    "total": 386
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:5edbQ2ZBkiH6QzCdYPCgT9"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/3p95WkNwEGpuBntqL1JsE0"
+                },
+                "href": "https://api.spotify.com/v1/playlists/3p95WkNwEGpuBntqL1JsE0",
+                "id": "3p95WkNwEGpuBntqL1JsE0",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b27361b0ddfe82329585a6649ae3ab67616d0000b2736a50d6829e36107b7f10e71fab67616d0000b27373a7dd25615479941fa65e4cab67616d0000b273ef87b3e8a0b0a467454c33cd",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b27361b0ddfe82329585a6649ae3ab67616d0000b2736a50d6829e36107b7f10e71fab67616d0000b27373a7dd25615479941fa65e4cab67616d0000b273ef87b3e8a0b0a467454c33cd",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b27361b0ddfe82329585a6649ae3ab67616d0000b2736a50d6829e36107b7f10e71fab67616d0000b27373a7dd25615479941fa65e4cab67616d0000b273ef87b3e8a0b0a467454c33cd",
+                        "width": 60
+                    }
+                ],
+                "name": "Country?",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Niw0ZjU2ZDgyZDdhNDM1MTc2MGViZThkNDlmODFhMjkzNjlkZjVhMTU2",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/3p95WkNwEGpuBntqL1JsE0/tracks",
+                    "total": 29
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:3p95WkNwEGpuBntqL1JsE0"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/2fun5Kw0aQV6RcPA7PM3Z2"
+                },
+                "href": "https://api.spotify.com/v1/playlists/2fun5Kw0aQV6RcPA7PM3Z2",
+                "id": "2fun5Kw0aQV6RcPA7PM3Z2",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273e1ac646ed6f25125e2a77229",
+                        "width": 640
+                    }
+                ],
+                "name": "Encanto (Original Motion Picture Soundtrack)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MiwxN2ViMzVkZTA5ODQwMmJiOThlMmRmNGQ0OGI2ZThjNzg2NmY2N2Nj",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/2fun5Kw0aQV6RcPA7PM3Z2/tracks",
+                    "total": 44
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:2fun5Kw0aQV6RcPA7PM3Z2"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/41AvjtSrrShbBskOTNtvin"
+                },
+                "href": "https://api.spotify.com/v1/playlists/41AvjtSrrShbBskOTNtvin",
+                "id": "41AvjtSrrShbBskOTNtvin",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706c0000bebbb0a2967284c7bc18c9c690b9",
+                        "width": null
+                    }
+                ],
+                "name": "The Witcher Jaskier songs",
+                "owner": {
+                    "display_name": "Isac Larsen",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/larsenisac"
+                    },
+                    "href": "https://api.spotify.com/v1/users/larsenisac",
+                    "id": "larsenisac",
+                    "type": "user",
+                    "uri": "spotify:user:larsenisac"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "NjQsYjBlZWI0YzRmYTJhYjc4NjkzNDM4ZTliZDY5Njc3ZDFiZDQxNGY0Mw==",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/41AvjtSrrShbBskOTNtvin/tracks",
+                    "total": 6
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:41AvjtSrrShbBskOTNtvin"
+            },
+            {
+                "collaborative": false,
+                "description": "Catch all the latest music from artists you follow, plus new singles picked for you. Updates every Friday.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZEVXbrZEV6Y5e2q9"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXbrZEV6Y5e2q9",
+                "id": "37i9dQZEVXbrZEV6Y5e2q9",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://newjams-images.scdn.co/v3/release-radar/ab6761610000e5eb1e9e186f960bcb612434299f/en/large",
+                        "width": null
+                    }
+                ],
+                "name": "Release Radar",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MCwwMDAwMDAwMDNmM2RhMmU5MmNlY2EzNTAwYzJiM2FhNmM1Y2RhZGE5",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXbrZEV6Y5e2q9/tracks",
+                    "total": 30
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZEVXbrZEV6Y5e2q9"
+            },
+            {
+                "collaborative": false,
+                "description": "Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZEVXcWLbPUnwux8A"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXcWLbPUnwux8A",
+                "id": "37i9dQZEVXcWLbPUnwux8A",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/PMMY27Rw_o87jQg5DwuIGbMUmpe_6X-01-QCs7Qz_f1Pf_07Eef4-tjFsMk8KdWschV379mImr_dL3zIHuqV2EGUgCjQyE6oJDQpKtPC_cU0WPENKfYLlQjlhJNSHwmqfJQOhM80XPZHw51N3W4mD4654KS7PrprRu3p3qfTHxpOr_j6CxN-NpFVh3S6Fo-uWEYDQJ6bdNttQws1baZTFgmV0M27vWBPZItEUNCGdzkMbCTgbZ2CwqYQFvvR_R2g-K_WuUpUMIvVVwQdC4ecGNRJyCQL26aT601jagmulRq16sUxUqmDf3LQiUG8Szx2xWeOpsM6Pu9gN4EUy0sWNAEFUb2aJ2M5j0Al9X4NbShx3jvTuHiXUV7Px5GS5D8U2c_cPBem-SRR3fRl6HtYSA==/MjU6NTI6OTBUMDEtMjAtMg==",
+                        "width": null
+                    }
+                ],
+                "name": "Discover Weekly",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MCwwMDAwMDAwMDE2MjNmNzEwZjJiZDVlYmQ2M2NlZDJhZjNjZDlhYmMy",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXcWLbPUnwux8A/tracks",
+                    "total": 30
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZEVXcWLbPUnwux8A"
+            },
+            {
+                "collaborative": false,
+                "description": "A mix of news and music made for you",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/37i9dQZF1EfRF6wYQL8eB5"
+                },
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EfRF6wYQL8eB5",
+                "id": "37i9dQZF1EfRF6wYQL8eB5",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://mixed-media-images.spotifycdn.com/daily-drive/daily-drive-2.0-en-large.jpg",
+                        "width": null
+                    }
+                ],
+                "name": "Daily Drive",
+                "owner": {
+                    "display_name": "Spotify",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/spotify"
+                    },
+                    "href": "https://api.spotify.com/v1/users/spotify",
+                    "id": "spotify",
+                    "type": "user",
+                    "uri": "spotify:user:spotify"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MCwwMDAwMDAwMDg5ZjQ3ODBhOTdlODE4MjUxYjBlNmQ3ZTY1ZDFkZThm",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EfRF6wYQL8eB5/tracks",
+                    "total": 30
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:37i9dQZF1EfRF6wYQL8eB5"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/3kD5VgXGiMSUTmiNL0DDzp"
+                },
+                "href": "https://api.spotify.com/v1/playlists/3kD5VgXGiMSUTmiNL0DDzp",
+                "id": "3kD5VgXGiMSUTmiNL0DDzp",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6765630000ba8ac6371799aa607f4c0ce09e59",
+                        "width": 640
+                    }
+                ],
+                "name": "Interview: Mark Zuckerberg on Facebook’s metaverse",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MixjOTU1NWQxMWU5NzM3YjA2OTdjMWQzYjRhNjUxMDZlNDRjMjY5MDVk",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/3kD5VgXGiMSUTmiNL0DDzp/tracks",
+                    "total": 1
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:3kD5VgXGiMSUTmiNL0DDzp"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/3O1c4R1KmDsu4UnHtl0bzA"
+                },
+                "href": "https://api.spotify.com/v1/playlists/3O1c4R1KmDsu4UnHtl0bzA",
+                "id": "3O1c4R1KmDsu4UnHtl0bzA",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b27333b8541201f1ef38941024beab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27358c4833cc8b1a3d6e4890940ab67616d0000b273755a9f1e89ad8e8cf91d4956",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b27333b8541201f1ef38941024beab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27358c4833cc8b1a3d6e4890940ab67616d0000b273755a9f1e89ad8e8cf91d4956",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b27333b8541201f1ef38941024beab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27358c4833cc8b1a3d6e4890940ab67616d0000b273755a9f1e89ad8e8cf91d4956",
+                        "width": 60
+                    }
+                ],
+                "name": "2021",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MTg3LDVkNmMzZjA5Nzc2MjEwNDg1MmFkZjM1N2JjZDFjMDlmMDdmOGExZjU=",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/3O1c4R1KmDsu4UnHtl0bzA/tracks",
+                    "total": 172
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:3O1c4R1KmDsu4UnHtl0bzA"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/0ALV1LTgDfi8wFA9oNvVt1"
+                },
+                "href": "https://api.spotify.com/v1/playlists/0ALV1LTgDfi8wFA9oNvVt1",
+                "id": "0ALV1LTgDfi8wFA9oNvVt1",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b2735dc48545a240d89890b836f3ab67616d0000b2738272b2695e634d4352b3befaab67616d0000b273b26ee3ea08f1e5d8dffbab4bab67616d0000b273d89b39d2f9d22977e44205e8",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b2735dc48545a240d89890b836f3ab67616d0000b2738272b2695e634d4352b3befaab67616d0000b273b26ee3ea08f1e5d8dffbab4bab67616d0000b273d89b39d2f9d22977e44205e8",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b2735dc48545a240d89890b836f3ab67616d0000b2738272b2695e634d4352b3befaab67616d0000b273b26ee3ea08f1e5d8dffbab4bab67616d0000b273d89b39d2f9d22977e44205e8",
+                        "width": 60
+                    }
+                ],
+                "name": "Themesongs I Love",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "OSxkOGIzN2E5ZmFiOGIyMmI4ODYyYzVmMDNhZjQ0ODI1MGJhYWZhYWEy",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/0ALV1LTgDfi8wFA9oNvVt1/tracks",
+                    "total": 7
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:0ALV1LTgDfi8wFA9oNvVt1"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/2cSbYLjXjg6Whb0fJzSiAz"
+                },
+                "href": "https://api.spotify.com/v1/playlists/2cSbYLjXjg6Whb0fJzSiAz",
+                "id": "2cSbYLjXjg6Whb0fJzSiAz",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/ab67616d0000b2734bdd14fc2ad642f020cf1a4cab67616d0000b27354423be23f93dbb29ece6ed6ab67616d0000b273ece053d3f1fd2c7c9d76fc01ab67616d0000b273ed40a887653ee19d9ba64b7f",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/ab67616d0000b2734bdd14fc2ad642f020cf1a4cab67616d0000b27354423be23f93dbb29ece6ed6ab67616d0000b273ece053d3f1fd2c7c9d76fc01ab67616d0000b273ed40a887653ee19d9ba64b7f",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/ab67616d0000b2734bdd14fc2ad642f020cf1a4cab67616d0000b27354423be23f93dbb29ece6ed6ab67616d0000b273ece053d3f1fd2c7c9d76fc01ab67616d0000b273ed40a887653ee19d9ba64b7f",
+                        "width": 60
+                    }
+                ],
+                "name": "Ballroom Music",
+                "owner": {
+                    "display_name": "Bjorn Koster",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/117150891"
+                    },
+                    "href": "https://api.spotify.com/v1/users/117150891",
+                    "id": "117150891",
+                    "type": "user",
+                    "uri": "spotify:user:117150891"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "NjksNTNlZjMxNzNhOGRmMDUzNDI3MjgzNzYyNTIzMjk3ZDI3NjAyNzM4OQ==",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/2cSbYLjXjg6Whb0fJzSiAz/tracks",
+                    "total": 54
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:2cSbYLjXjg6Whb0fJzSiAz"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/62pfU4coQrkXFG2PSC4twA"
+                },
+                "href": "https://api.spotify.com/v1/playlists/62pfU4coQrkXFG2PSC4twA",
+                "id": "62pfU4coQrkXFG2PSC4twA",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273a1ea21e2751e38dd78e85ead",
+                        "width": 640
+                    }
+                ],
+                "name": "The Wheel of Time: Season 1, Vol. 1 (Amazon Original Series Soundtrack)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Myw4YzYxYTU3MmZjMTdhYzkzODBmNTMyMzA2ZmQ0OTFmNzY4YWI4MGJh",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/62pfU4coQrkXFG2PSC4twA/tracks",
+                    "total": 30
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:62pfU4coQrkXFG2PSC4twA"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/6XnxNVlAwSXTyBCkMSXWqZ"
+                },
+                "href": "https://api.spotify.com/v1/playlists/6XnxNVlAwSXTyBCkMSXWqZ",
+                "id": "6XnxNVlAwSXTyBCkMSXWqZ",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273eaa7992d5dbf06c0e5a26104",
+                        "width": 640
+                    }
+                ],
+                "name": "Joseph Trapanese – The Witcher: Season 2 (Soundtrack from the Netflix Original Series)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Miw2ZmRmY2QyMGUyYmZmNTExYjhmYTlkZTg4MzYzODdjMWIwODE1YmIw",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/6XnxNVlAwSXTyBCkMSXWqZ/tracks",
+                    "total": 32
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:6XnxNVlAwSXTyBCkMSXWqZ"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/7MS8cMEhcaSDEtf28zfwsD"
+                },
+                "href": "https://api.spotify.com/v1/playlists/7MS8cMEhcaSDEtf28zfwsD",
+                "id": "7MS8cMEhcaSDEtf28zfwsD",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273b3e7f405327ceb92354a4c7d",
+                        "width": 640
+                    }
+                ],
+                "name": "Forsaken (The Aftermath)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MiwzN2M2MjkyMmRlMTViYjMwNWFjMjJkY2VmZGFhMGNjMmExOTQ4ZWM3",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/7MS8cMEhcaSDEtf28zfwsD/tracks",
+                    "total": 1
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:7MS8cMEhcaSDEtf28zfwsD"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/6cY5YyNc152batuLN7NsD7"
+                },
+                "href": "https://api.spotify.com/v1/playlists/6cY5YyNc152batuLN7NsD7",
+                "id": "6cY5YyNc152batuLN7NsD7",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d371644511a5af8aee24e12d",
+                        "width": 640
+                    }
+                ],
+                "name": "Shadow and Bone (Music from the Netflix Series)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Miw4OGY0ZWU4M2RhZjEyMzhhMGE1NTU3YjdjYWNmNGFjNTkxMWZkZTQ5",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/6cY5YyNc152batuLN7NsD7/tracks",
+                    "total": 19
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:6cY5YyNc152batuLN7NsD7"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/5G79BOAw1SFwI3Ui69uM22"
+                },
+                "href": "https://api.spotify.com/v1/playlists/5G79BOAw1SFwI3Ui69uM22",
+                "id": "5G79BOAw1SFwI3Ui69uM22",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2739c3c13a0643e08a6ccd53b59",
+                        "width": 640
+                    }
+                ],
+                "name": "The Matrix Resurrections (Original Motion Picture Soundtrack)",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MixhMjQxOTM0MGE1M2JmODg2NzNmN2YxY2M4MGRjMDNjNTg1ZmEzMGMx",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/5G79BOAw1SFwI3Ui69uM22/tracks",
+                    "total": 35
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:5G79BOAw1SFwI3Ui69uM22"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/2TesyPQ36RH6m0ZqfK08mM"
+                },
+                "href": "https://api.spotify.com/v1/playlists/2TesyPQ36RH6m0ZqfK08mM",
+                "id": "2TesyPQ36RH6m0ZqfK08mM",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734fadb2c3b4790efd1ed1e369",
+                        "width": 640
+                    }
+                ],
+                "name": "HUMAN. :II: NATURE.",
+                "owner": {
+                    "display_name": "Joël Hoekstra",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/1170108177"
+                    },
+                    "href": "https://api.spotify.com/v1/users/1170108177",
+                    "id": "1170108177",
+                    "type": "user",
+                    "uri": "spotify:user:1170108177"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "MixmNDE4NGRmMmY2OTI0ZjFhZDM5NTI3NmU4MjUwMjMzNGMxZjQyNmUy",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/2TesyPQ36RH6m0ZqfK08mM/tracks",
+                    "total": 17
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:2TesyPQ36RH6m0ZqfK08mM"
+            }
+        ],
+        "limit": 20,
+        "next": "https://api.spotify.com/v1/users/1170108177/playlists?offset=20&limit=20",
+        "offset": 0,
+        "previous": null,
+        "total": 322
+    }
+}

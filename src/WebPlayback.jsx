@@ -1,53 +1,135 @@
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useEffect } from 'react';
+import { Alert, Container, Toast } from 'react-bootstrap';
 
-const WebPlayback = ({ token }) => {
-  return (
-    <div>hallooo, {token}</div>
-  );
+const track = {
+    name: "",
+    album: {
+        images: [
+            { url: "" }
+        ]
+    },
+    artists: [
+        { name: "" }
+    ]
 }
 
-export default WebPlayback;
-// const WebPlayback = ({ token }) => {
-//   const [player, setPlayer] = useState(undefined);
+const apiRequest = () => {
+  console.log('hi');
+}
 
-//   useEffect (() => {
-//     const script = document.createElement('script');
-//     script.src = process.env.SPOTIFY_PLAYER_SCRIPT_SRC;
-//     script.async = true;
+const retrieveToken = () => {
+    return localStorage.getItem('spotify-token');
+}
 
-//     document.body.appendChild(script);
-    
-//     window.onSpotifyWebPlaybackSDKReady = () => {
+function WebPlayback({ token }) {
 
-//       const player = new window.Spotify.Player({
-//         name: 'Josaho Playback Web-App',
-//         getOAuthToken: cb => { cb(token); },
-//         volume: 0.5
-//       });
+    const [is_paused, setPaused] = useState(false);
+    const [is_active, setActive] = useState(false);
+    const [player, setPlayer] = useState(undefined);
+    const [current_track, setTrack] = useState(track);
 
-//       setPlayer(player);
-      
-//       player.addListener('ready', ({ device_id }) => {
-//         console.log('Ready with Device ID', device_id);
-//       });
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://sdk.scdn.co/spotify-player.js";
+        script.async = true;
 
-//       player.addListener('not_ready', ({ device_id }) => {
-//         console.log('Device ID has gone offline', device_id);
-//       });
+        document.body.appendChild(script);
 
-//       player.connect();
-//     }
-//   }, []);
+        window.onSpotifyWebPlaybackSDKReady = () => {
 
-//   return (
-//     <>
-//       <div className='container'>
-//         <div className='main-wrapper'>
+            const player = new window.Spotify.Player({
+                name: 'Josaho Web Playback SDK',
+                getOAuthToken: cb => { cb(token); },
+                volume: 1.0
+            });
 
-//         </div>
-//       </div>
-//     </>
-//   )
-// }
+            setPlayer(player);
 
-export default WebPlayback;
+            player.addListener('ready', ({ device_id }) => {
+                console.log('Ready with Device ID', device_id);
+            });
+
+            player.addListener('not_ready', ({ device_id }) => {
+                console.log('Device ID has gone offline', device_id);
+            });
+
+            player.addListener('player_state_changed', ( state => {
+
+                if (!state) {
+                    return;
+                }
+
+                setTrack(state.track_window.current_track);
+                setPaused(state.paused);
+
+                player.getCurrentState().then( state => { 
+                    (!state)? setActive(false) : setActive(true) 
+                });
+
+            }));
+            
+            player.connect();
+
+        };
+    }, []);
+
+    if (!is_active) { 
+        return (
+            <>
+                <Container>
+                    <Toast bg='dark'>
+                        <Toast.Header>
+                            <FontAwesomeIcon icon={faSpotify} className="spotify-brand me-2"/>
+                            {/* <img src="holder.js/20x20?text=%20" className="rounded me-2" alt="" /> */}
+                            <strong className="me-auto">{' '}Spotify</strong>
+                            <small>11 mins ago</small>
+                        </Toast.Header>
+                        <Toast.Body className={'text-white'}>Transfer your playback using your Spotify app</Toast.Body>
+                    </Toast>
+                    <Alert variant="warning">
+                        <Alert.Heading>
+                            <FontAwesomeIcon icon={faSpotify} className="spotify-brand"/>
+                            {' '}Instance not active
+                        </Alert.Heading>
+                        <hr/>
+                        <p>Transfer your playback using your Spotify app</p>
+                    </Alert>
+                </Container>
+            </>)
+    } else {
+        return (
+            <>
+                <div className="container">
+                    <div className="main-wrapper">
+
+                        <img src={current_track.album.images[0].url} className="now-playing__cover" alt="" />
+
+                        <div className="now-playing__side">
+                            <div className="now-playing__name">{current_track.name}</div>
+                            <div className="now-playing__artist">{current_track.artists[0].name}</div>
+
+                            <button className="btn-spotify" onClick={() => { player.previousTrack() }} >
+                                &lt;&lt;
+                            </button>
+
+                            <button className="btn-spotify" onClick={() => { player.togglePlay() }} >
+                                { is_paused ? "PLAY" : "PAUSE" }
+                            </button>
+
+                            <button className="btn-spotify" onClick={() => { player.nextTrack() }} >
+                                &gt;&gt;
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button className="btn-spotify" onClick={() => { apiRequest() }} >
+                  Lols
+                </button>
+            </>
+        );
+    }
+}
+
+export default WebPlayback
