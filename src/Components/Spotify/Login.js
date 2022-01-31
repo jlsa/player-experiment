@@ -1,12 +1,16 @@
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const Login = () => {
+const Login = ({ token }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a className="btn-spotify" href="/auth/login">Login with Spotify</a>
-      </header>
-    </div>
+    <a 
+      className="btn btn-primary" 
+      href="/auth/login"
+    >
+      <FontAwesomeIcon icon={faSpotify} />
+      <span>{token ? ' Reconnect' : ' Connect'}</span>
+    </a>
   );
 }
 
