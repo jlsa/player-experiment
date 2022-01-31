@@ -1,18 +1,19 @@
-// import { useEffect } from "react";
-import { Pagination } from "react-bootstrap";
+import React, { useEffect } from 'react';
+import { Pagination } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 const SpotifyPagination = ({ hasNext, hasPrevious, onPrevious, onNext, total, limit, offset }) => {
 
-  // useEffect(() => {
-
-  // }, [])
+  useEffect(() => {
+    console.log(total, limit, offset);
+  }, []);
 
   return (
     <Pagination>
       {/* <Pagination.First /> */}
-      
+
       <Pagination.Prev disabled={!hasPrevious} onClick={() => onPrevious()} />
-      
+
       {/* <Pagination.Item>{1}</Pagination.Item>
       <Pagination.Ellipsis />
 
@@ -27,7 +28,17 @@ const SpotifyPagination = ({ hasNext, hasPrevious, onPrevious, onNext, total, li
       <Pagination.Next disabled={!hasNext} onClick={() => onNext()} />
       {/* <Pagination.Last disabled={!hasNext && }/> */}
     </Pagination>
-  )
-}
+  );
+};
 
-export default SpotifyPagination
+SpotifyPagination.propTypes = {
+  hasNext: PropTypes.bool,
+  hasPrevious: PropTypes.bool,
+  limit: PropTypes.number,
+  total: PropTypes.number,
+  offset: PropTypes.number,
+  onPrevious: PropTypes.func,
+  onNext: PropTypes.func,
+};
+
+export default SpotifyPagination;

@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import WebPlayback from './WebPlayback'
-import Login from './Login'
+import WebPlayback from './WebPlayback';
+import Login from './Login';
 import Container from 'react-bootstrap/Container';
 import SpotifyPlaylists from './SpotifyPlaylists';
+import IconButton from '../Ui/IconButton';
+import { ButtonGroup, Row } from 'react-bootstrap';
 
 const storeToken = (token) => {
   localStorage.setItem('spotify-token', token);
-}
+};
 
 const Spotify = () => {
   const [token, setToken] = useState('');
@@ -23,16 +25,33 @@ const Spotify = () => {
   }, []);
 
   return (
-    <Container className="p-3 spotify-container">
-      <div><strong>Token</strong>: <span>{token}</span></div>
-      <div>
-        <a className="btn-spotify" href="/auth/get-user-playlists">Get User's Playlists</a>
-      </div>
-      {<Login token={token} />}
-      {token && <WebPlayback token={token} />}
-      {token && <SpotifyPlaylists />}
+    <Container fluid className='p-3 spotify-container'>
+      {/* <div>
+        <a className="btn-spotify" href="/auth/get-user-playlists">Get User&lsquo;s Playlists</a>
+      </div> */}
+      <Row className='mb-3'>
+        <ButtonGroup>
+          {<Login token={token} />}
+          {token && (
+            <IconButton
+              variant={'primary'}
+              onCustomClick={() => {
+                console.log('hi');
+              }}
+            >Get playlists</IconButton>
+          )}
+        </ButtonGroup>
+      </Row>
+      <Row>
+        {token && (
+          <>
+            <WebPlayback token={token} />
+            <SpotifyPlaylists />
+          </>
+        )}
+      </Row>
     </Container>
   );
-}
+};
 
 export default Spotify;
