@@ -25,7 +25,7 @@ const SpotifyPlaylists = () => {
           setPlaylists(response.data.items);
           setHasNext(response.data.next ? true : false);
           setHasPrevious(response.data.previous ? true : false);
-          setLimit(response.data.limit);  
+          setLimit(response.data.limit);
           setTotal(response.data.total);
           setOffset(response.data.offset);
           console.log(response.data);
@@ -35,9 +35,8 @@ const SpotifyPlaylists = () => {
           console.log(error);
         });
     }
-
     getPlaylists();
-  }
+  };
 
   useEffect(() => {
     console.log(offset);
@@ -46,12 +45,19 @@ const SpotifyPlaylists = () => {
 
   return (
     <>
-      <SpotifyPagination 
+      <SpotifyPagination
+        toPage={(pageNumber) => {
+          setOffset(Math.ceil(pageNumber * limit));
+        }}
         onPrevious={() => {
-          setOffset(offset - limit)
+          let newOffset = offset - limit;
+          if (newOffset < 0) {
+            newOffset = 0;
+          }
+          setOffset(newOffset);
         }}
         onNext={() => {
-          setOffset(offset + limit)
+          setOffset(offset + limit);
         }}
         hasNext={hasNext}
         hasPrevious={hasPrevious}
@@ -59,29 +65,17 @@ const SpotifyPlaylists = () => {
         total={total}
         offset={offset}
       />
-      <Row className="g-4" md={4}>
-          {playLists.map((playlist, index) => {
-            return (
-              <Col key={index}>
-                <SpotifyPlaylistListItem key={index} playlist={playlist} />
-              </Col>
-            )
-          })}
+      <Row className='g-4 album' sm={4} md={12} lg={8}>
+        {playLists.map((playlist, index) => {
+          return (
+            <Col key={index}>
+              <SpotifyPlaylistListItem key={index} playlist={playlist} />
+            </Col>
+          );
+        })}
       </Row>
-      <SpotifyPagination 
-        onPrevious={() => {
-          setOffset(offset - limit)
-        }}
-        onNext={() => {
-          setOffset(offset + limit)
-        }}
-        hasNext={hasNext}
-        hasPrevious={hasPrevious}
-        limit={limit}
-        total={total}
-        offset={offset}
-      />
     </>
-  )
-}
+  );
+};
+
 export default SpotifyPlaylists;

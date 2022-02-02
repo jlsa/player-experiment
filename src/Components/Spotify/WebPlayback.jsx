@@ -60,7 +60,6 @@ const WebPlayback = ({ token }) => {
       }));
 
       player.connect();
-
     };
   }, []);
 
