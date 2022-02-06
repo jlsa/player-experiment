@@ -17,7 +17,7 @@ const track = {
   ]
 };
 
-const WebPlayback = ({ token }) => {
+const WebPlayback = () => {
   const [is_paused, setPaused] = useState(false);
   const [is_active, setActive] = useState(false);
   const [player, setPlayer] = useState(undefined);
@@ -31,7 +31,7 @@ const WebPlayback = ({ token }) => {
     document.body.appendChild(script);
 
     window.onSpotifyWebPlaybackSDKReady = () => {
-
+      const token = localStorage.getItem('spotify-token');
       const player = new window.Spotify.Player({
         name: 'Josaho Web Playback SDK',
         getOAuthToken: cb => { cb(token); },

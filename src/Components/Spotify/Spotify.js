@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import WebPlayback from './WebPlayback';
+// import WebPlayback from './WebPlayback';
 import Login from './Login';
 import Container from 'react-bootstrap/Container';
 import SpotifyPlaylists from './SpotifyPlaylists';
@@ -45,7 +45,7 @@ const Spotify = () => {
       <Row>
         {token && (
           <>
-            <WebPlayback token={token} />
+            {/* <WebPlayback token={token} /> */}
             <SpotifyPlaylists />
           </>
         )}

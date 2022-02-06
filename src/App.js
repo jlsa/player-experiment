@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Container from 'react-bootstrap/Container';
 import Spotify from './Components/Spotify/Spotify';
+import Dashboard from './Components/Ui/Dashboard';
 
 const App = () => (
-  <Container fluid>
+  <Dashboard>
     <Spotify />
-  </Container>
+  </Dashboard>
 );
 
 export default App;
